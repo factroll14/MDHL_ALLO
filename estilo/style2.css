@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+header{
+    background-image: url(/imagenes/design1_image2.jpg);
+    height: 350px;
+}
+
+h2{
+    background-color: white;
+    border: solid;
+    text-align: center;
+}
+
+
+h1{
+    background-color: white;
+    width: 1366px;
+    font-size: 50px;
+}
+
+.doom{
+    border: solid black 1px;
+    background-color: rgb(39, 39, 255);
+    color: white;
+    margin: 5px;
+    padding: 2px 10px;
+    box-shadow: 3px 3px rgba(128, 128, 128, 0.651);
+    text-decoration: none;
+    display: inline;
+}
+
+:hover.doom{
+    background-color: rgb(3, 199, 3);
+}
+
+
+nav{
+    position: absolute;
+    top: 55px;
+    left: 800px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 400px;
+    left: 10px;
+}
+
+img{
+    width: 250px;
+    position: absolute;
+    top: 400px;
+    left: 975px;
+    border-radius: 15px;
+}
+
+article{
+    display:block;
+    position: relative;
+    left: 220px;
+    top: 20px;
+    margin: 20px;
+    max-width: 700px;
+}
