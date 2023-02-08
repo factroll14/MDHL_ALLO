@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imagenes/Logo_Mighty_ducks-01.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style2.css">
+    <title>Mighty Ducks Hockey League</title>
+</head>
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+    </header>
+    <nav>
+        <a href="index.html" class="doom">Home </a> 
+        <a href="about.html" class="doom">About MDHL </a> 
+        <a href="contact.html" class="doom">contact</a>
+        <a href="game_info.html" class="doom">Game Info</a>
+        <a href="rules.html" class="doom">Rules</a>
+        <a href="#" class="doom">Form</a>
+    </nav>
+    <main>
+        <h2>Registration Form</h2>
+        <form action="show_data.html" method="get">
+            <fieldset>
+            <label for="Fname">Player's First Name:</label>
+            <input type="text" name="Fname" id="Fname">
+            <label for="Lname">Last Name:</label>
+            <input type="text" name="Lname" id="Lname">
+            <label for="Birthday">Birth Date(mm/dd/yy):</label>
+            <input type="number" name="Birthday" id="Birthday">
+            </fieldset>
+            <fieldset>
+                <label for="Street">Street Address:</label>
+                <input type="text" name="Street" id="Street">
+            </fieldset>
+            <fieldset>
+                <label for="City">City</label>
+                <input type="text" name="City" id="City">
+                <label for="Zcode">Zip Code</label>
+                <input type="text" name="Zcode" id="Zcode">
+            </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="Female">Female</label>
+                <input type="radio" name="Gender" id="Female" value="Female">
+                <label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Male" value="Male">
+            </fieldset>
+            <fieldset>
+                <legend>Grade</legend>
+                <select name="Grade" id="Grade">
+                    <option value="">~Select your grade~</option>
+                    <option value="Pre-School">Pre-School</option>
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
+                    <option value="5th">5th</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>which elementary school do you live near?</legend>
+                <select name="School" id="School">
+                    <option value="">~Please choose an option~</option>
+                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                    <option value="Greenbay">Greenbay</option>
+                    <option value="Howard A Yeager">Howard A Yeager</option>
+                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+                    <option value="North Elementary">North Elementary</option>
+                    <option value="South Elementary">South Elementary</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>What Position(s) do you normally play? (Check All that apply)</legend>
+                <label for="Forward">Forward</label>
+                <input type="checkbox" name="" id="Forward" value="Forward">
+                <label for="Defense">Defense</label>
+                <input type="checkbox" name="" id="Defense" value="Defense">
+                <label for="Midfield">Midfield</label>
+                <input type="checkbox" name="" id="Midfield" value="Midfield">
+                <label for="Goalkeepear">Goalkeepear</label>
+                <input type="checkbox" name="" id="Goalkeepear" value="Goalkeepear">
+            </fieldset>
+            <fieldset>
+                <legend>Uniform Size</legend>
+                    <select name="Uniform" id="Uniform">
+                        <option value="">~select your size~</option>
+                        <option value="Youth Smal">Youth Smal</option>
+                        <option value="Youth Medium">Youth Medium</option>
+                        <option value="Youth Large">Youth Large</option>
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="Extra-Large">Extra-Large</option>
+                    </select>
+            </fieldset>
+            <fieldset>
+            <legend>Permission to Play</legend>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities, I 
+                hereby release, discharge, and/or otherwise indemnify MDHL their employees and associated personnel and volunteers, incluiding the facilities used for registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation.</p>
+                <label for="Terms">By signing below, I agree and authorize the above, and by signing below I also acknowledge that I have read the cancellation policy and agree to its terms.</label>
+                <input type="checkbox" name="" id="Terms" value="Terms">
+            </fieldset>
+            <fieldset>
+                <label for="PGS">Parent/GuardianSignature:</label>
+                <input type="text" name="PGS" id="PGS">
+                <label for="Date">Date:</label>
+                <input type="number" name="Date" id="Date">
+            </fieldset>
+            <fieldset>
+                <input type="submit" name="" id="" value="Submit!">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
